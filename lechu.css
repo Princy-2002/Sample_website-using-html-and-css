@@ -1,0 +1,75 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+    background-image: url(lekz.jpg);
+    background-color: rgb(124, 121, 117);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
+}
+header{
+ color: hwb(300 19% 80%);
+ padding: 12px;
+ text-align: right;
+
+}
+header h1{
+      letter-spacing: normal;
+      font-size: 800;
+}
+nav{
+
+    text-align: right;
+    background-color: rgb(124, 121, 117);
+}
+nav a{
+    text-decoration: none;
+    padding: 12px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
+.mi{
+position: initial;
+padding-bottom: 50px;
+padding-top: 10px;
+}
+.ni{
+border-radius: 4px;
+background-color: grey;
+}
+
+
+.Items{
+    margin: 0;
+    border: 1px;
+    border-radius: 12px;
+    color:rgb(208, 154, 187);
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    image-resolution: 50px;
+    
+}
+.one{
+    color: hsl(0, 3%, 50%);
+}
+
+    
+.ro{
+    background-color:rgb(197, 177, 177);
+    color: black;
+    cursor: pointer;
+    border-left: 1px solid #000;
+    border-radius: 12px;
+}
+.li{
+    color: rgb(243, 235, 237);
+}
+
+nav :hover{
+    color:navy;
+}
